@@ -1,0 +1,69 @@
+/* ===================================================
+   THEME TOKENS — Premium Portfolio
+   =================================================== */
+
+:root {
+  /* Brand palette */
+  --color-primary: #2563eb;
+  --color-primary-rgb: 37, 99, 235;
+  --color-secondary: #4f46e5;
+  --color-secondary-rgb: 79, 70, 229;
+  --color-accent: #06b6d4;
+  --color-accent-rgb: 6, 182, 212;
+
+  /* Light theme surface */
+  --bg-body: #f8fafc;
+  --bg-body-rgb: 248, 250, 252;
+  --bg-elevated: #ffffff;
+  --bg-glass: rgba(255, 255, 255, 0.6);
+  --bg-glass-strong: rgba(255, 255, 255, 0.8);
+  --border-glass: rgba(255, 255, 255, 0.5);
+  --border-soft: rgba(15, 23, 42, 0.08);
+
+  --text-dark: #0f172a;
+  --text-light: #64748b;
+  --text-inverse: #f8fafc;
+
+  --shadow-soft: 0 4px 24px rgba(15, 23, 42, 0.06);
+  --shadow-medium: 0 12px 40px rgba(15, 23, 42, 0.08);
+  --shadow-lift: 0 24px 60px rgba(37, 99, 235, 0.16);
+
+  --radius-sm: 12px;
+  --radius-md: 20px;
+  --radius-lg: 28px;
+  --radius-pill: 999px;
+
+  --font-display: "Plus Jakarta Sans", "Inter", sans-serif;
+  --font-body: "Inter", sans-serif;
+
+  --gradient-primary: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 55%, var(--color-accent) 100%);
+  --gradient-mesh: radial-gradient(circle at 15% 20%, rgba(37, 99, 235, 0.16), transparent 45%),
+                   radial-gradient(circle at 85% 10%, rgba(6, 182, 212, 0.14), transparent 40%),
+                   radial-gradient(circle at 50% 90%, rgba(79, 70, 229, 0.14), transparent 45%);
+
+  --container-max: 1200px;
+  --transition-base: 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Dark theme overrides */
+[data-theme="dark"] {
+  --bg-body: #0b1120;
+  --bg-body-rgb: 11, 17, 32;
+  --bg-elevated: #111827;
+  --bg-glass: rgba(17, 24, 39, 0.55);
+  --bg-glass-strong: rgba(17, 24, 39, 0.75);
+  --border-glass: rgba(255, 255, 255, 0.08);
+  --border-soft: rgba(255, 255, 255, 0.08);
+
+  --text-dark: #f1f5f9;
+  --text-light: #94a3b8;
+  --text-inverse: #0f172a;
+
+  --shadow-soft: 0 4px 24px rgba(0, 0, 0, 0.35);
+  --shadow-medium: 0 12px 40px rgba(0, 0, 0, 0.4);
+  --shadow-lift: 0 24px 60px rgba(37, 99, 235, 0.28);
+
+  --gradient-mesh: radial-gradient(circle at 15% 20%, rgba(37, 99, 235, 0.28), transparent 45%),
+                   radial-gradient(circle at 85% 10%, rgba(6, 182, 212, 0.22), transparent 40%),
+                   radial-gradient(circle at 50% 90%, rgba(79, 70, 229, 0.24), transparent 45%);
+}
