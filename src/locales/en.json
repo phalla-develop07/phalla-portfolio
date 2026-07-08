@@ -1,0 +1,54 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "tools": "Tools",
+    "experience": "Experience",
+    "projects": "Projects",
+    "achievements": "Achievements",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "role": "Web Developer",
+    "tagline": "Building clean, modern web experiences",
+    "cta": "View My Work",
+    "downloadCV": "Download Resume"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "I'm a student at Passerelles Numériques Cambodia, passionate about web development and creating meaningful digital experiences."
+  },
+  "skills": {
+    "title": "My Skills"
+  },
+  "tools": {
+    "title": "Tools I Use"
+  },
+  "experience": {
+    "title": "Experience Timeline"
+  },
+  "projects": {
+    "title": "My Projects",
+    "viewProject": "View Project",
+    "viewCode": "View Code",
+    "filterAll": "All"
+  },
+  "achievements": {
+    "title": "Achievements"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "name": "Your Name",
+    "email": "Your Email",
+    "message": "Your Message",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent successfully!",
+    "error": "Something went wrong. Please try again."
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}
