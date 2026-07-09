@@ -42,13 +42,8 @@ onBeforeUnmount(() => window.removeEventListener("scroll", handleScroll));
 
       <div class="nav-actions">
         <ThemeToggle />
-        <button
-          class="nav-burger"
-          type="button"
-          @click="mobileOpen = !mobileOpen"
-          :aria-expanded="mobileOpen"
-          aria-label="Toggle navigation menu"
-        >
+        <button class="nav-burger" type="button" @click="mobileOpen = !mobileOpen" :aria-expanded="mobileOpen"
+          aria-label="Toggle navigation menu">
           <i class="fa-solid" :class="mobileOpen ? 'fa-xmark' : 'fa-bars'"></i>
         </button>
       </div>
